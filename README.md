@@ -1,4 +1,4 @@
-# PlaylegendPermissions
+# Minecraft-Permissions
 
 PlaylegendPermissions ist ein Bukkit-Plugin, das entwickelt wurde, um Berechtigungen und Gruppen auf Minecraft-Servern
 zu verwalten. Es bietet eine flexible Lösung für die Zuweisung von Gruppen, Berechtigungen und speziellen Funktionen für
