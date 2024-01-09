@@ -1,0 +1,12 @@
+language: "de"
+defaultGroup:
+  name: "Player"
+  prefix: ""
+
+database:
+  host: "192.168.1.237"
+  port: "3306"
+  dbname: "playlegend"
+  user: "dbo_permission"
+  password: "ASdlkjflkj3lkjsldf"
+  tablePrefix: "pper_"

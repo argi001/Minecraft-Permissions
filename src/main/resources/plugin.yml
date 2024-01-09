@@ -1,0 +1,23 @@
+name: playlegend-permissions
+version: '${project.version}'
+main: org.pano.playlegendpermissions.PlaylegendPermissions
+api-version: '1.20'
+commands:
+  pper:
+    description: Verwaltet Berechtigungsgruppen und Benutzer
+    usage: /<command> <user/group> <Aktion> [weitere Argumente]
+    aliases: [ permissionmanager, pm ]
+    subcommands:
+      user:
+        description: Verwaltet Benutzerberechtigungen
+        usage: /pper user [userName] setGroup [gruppenName]
+      group:
+        description: Verwaltet Gruppen
+        usage: /pper group create [gruppenName]
+  permissions:
+    pper.administration:
+      description: Ermöglicht den Zugriff auf den pper-Befehl zum Verwalten von Gruppen und Spielerzuweisungen
+      default: op
+    pper.default:
+      description: Ermöglicht den Zugriff auf den pper info-Befehl
+      default: true
